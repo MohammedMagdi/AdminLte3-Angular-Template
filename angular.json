@@ -36,6 +36,7 @@
             "styles": [
               "src/styles.scss",
               "node_modules/admin-lte/plugins/fontawesome-free/css/all.css",
+              "node_modules/admin-lte/plugins/icheck-bootstrap/icheck-bootstrap.css",
               "node_modules/admin-lte/plugins/overlayScrollbars/css/OverlayScrollbars.css",
               "node_modules/admin-lte/dist/css/adminlte.css"
             ],
