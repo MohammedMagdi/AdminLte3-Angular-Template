@@ -1,1 +1,52 @@
 /* You can add global styles to this file, and also import other style files */
+
+.layout-navbar-fixed.layout-fixed .wrapper .sidebar {
+    margin-top: 0px;
+}
+
+.table thead th {
+    vertical-align: middle;
+}
+
+td.mat-cell,
+td.mat-footer-cell,
+th.mat-header-cell {
+    vertical-align: middle;
+}
+
+.mat-header-cell,
+.mat-footer-cell {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+.mat-sort-header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+td.mat-cell,
+td.mat-footer-cell,
+th.mat-header-cell {
+    text-align: center;
+    vertical-align: middle;
+}
+th.mat-header-cell,
+td.mat-cell,
+td.mat-footer-cell {
+    padding: unset !important;
+}
+th.mat-header-cell:first-of-type,
+td.mat-cell:first-of-type,
+td.mat-footer-cell:first-of-type {
+    padding-left: 10px !important;
+}
+
+html,
+body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    /*  font-family: Roboto, "Helvetica Neue", sans-serif; */
+}
